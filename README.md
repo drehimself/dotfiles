@@ -10,6 +10,8 @@ If you want to go all in on dotfiles, check out Dries Vints' [screencast here](h
 
 If you want to share your dotfiles, check out [this article here](https://opensource.com/article/19/3/move-your-dotfiles-version-control) which explains how to do it.
 
+I've also added my Visual Studio Code settings, keybindings and snippets which you can find in the `vscode` folder.
+
 ## Inspiration
 
 Looking at other people's dotfiles can give you ideas that you can incorporate into your setup. Here are some that I've looked into:
