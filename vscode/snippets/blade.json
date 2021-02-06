@@ -1,0 +1,40 @@
+{
+	// Place your snippets for blade here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	"Route Helper": {
+		"prefix": "route",
+		"body": [
+			"{{ route('${1:name}') }}"
+		],
+		"description": "Route Helper"
+	},
+	"Success Message": {
+		"prefix": "success",
+		"body": [
+			"@if (session('success_message'))",
+			"    <div class=\"alert alert-success\">",
+			"        {{ session('success_message') }}",
+			"    </div>",
+			"@endif"
+		],
+		"description": "Success message"
+	},
+	"Validation error messages": {
+		"prefix": "errorvalidation",
+		"body": [
+			"@if (count(\\$errors) > 0)",
+      "    <div class=\"alert alert-danger\">",
+      "        <ul>",
+      "            @foreach (\\$errors->all() as \\$error)",
+      "                <li>{{ \\$error }}</li>",
+      "            @endforeach",
+      "        </ul>",
+      "    </div>",
+      "@endif"
+		],
+		"description": "Error validation messages"
+	},
+}

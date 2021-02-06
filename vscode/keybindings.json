@@ -1,0 +1,51 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+escape",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+f1",
+    "command": "better-phpunit.run"
+  },
+  {
+    "key": "cmd+f2",
+    "command": "better-phpunit.run-file"
+  },
+  {
+    "key": "cmd+f3",
+    "command": "better-phpunit.run-previous"
+  },
+  {
+    "key": "cmd+f4",
+    "command": "better-phpunit.run-suite"
+  },
+  {
+    "key": "alt+down",
+    "command": "-editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+up",
+    "command": "-editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+f1",
+    "command": "namespaceResolver.import",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+space",
+    "command": "extension.selectEitherQuote",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "editor.emmet.action.balanceOut"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  }
+]
