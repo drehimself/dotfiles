@@ -55,4 +55,11 @@
 		],
 		"description": "Redirect"
 	},
+	"Guarded": {
+		"prefix": "guarded",
+		"body": [
+			"protected \\$guarded = [];$1"
+		],
+		"description": "Guarded empty array"
+	},
 }
