@@ -8,6 +8,9 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 3,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
     "editor.tabSize": 2,
     "editor.formatOnPaste": true,
     "editor.wordWrap": "on",
