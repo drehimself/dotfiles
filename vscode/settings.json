@@ -31,6 +31,26 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
     },
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "left": {
+                "custom": {
+                    "borderWidth": "1px",
+                    "borderStyle": "solid",
+                    "borderColor": "white",
+                    "borderRadius": "5px",
+                }
+            },
+            "right": {
+                "custom": {
+                    "borderWidth": "1px",
+                    "borderStyle": "solid",
+                    "borderColor": "white",
+                    "borderRadius": "5px",
+                }
+            }
+        }
+    },
     "prettier.requireConfig": true,
     "prettier.useEditorConfig": false,
     "namespaceResolver.sortAlphabetically": true,
@@ -43,10 +63,9 @@
     "php-cs-fixer.autoFixByBracket": false,
     "php-cs-fixer.rules": "@PSR2",
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1612636903345,
+    "php-cs-fixer.lastDownload": 1613527659108,
     "tailwindCSS.emmetCompletions": true,
-    "tailwindCSS.colorDecorators" : "off",
-    "window.zoomLevel": 0,
+    "tailwindCSS.colorDecorators": "off",
     "workbench.colorTheme": "Community Material Theme",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
