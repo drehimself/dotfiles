@@ -25,6 +25,9 @@ source $ZSH/oh-my-zsh.sh
 #
 # START aliases
 
+# Git stops working after every Big Sur update
+alias bigsur="xcode-select --install"
+
 # Misc
 alias zshconfig="vim ~/.zshrc"
 alias zshreload="source ~/.zshrc"
