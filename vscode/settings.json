@@ -63,7 +63,7 @@
     "php-cs-fixer.autoFixByBracket": false,
     "php-cs-fixer.rules": "@PSR2",
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1613527659108,
+    "php-cs-fixer.lastDownload": 1615313112664,
     "tailwindCSS.emmetCompletions": true,
     "tailwindCSS.colorDecorators": "off",
     "workbench.colorTheme": "Community Material Theme",

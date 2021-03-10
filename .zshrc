@@ -45,6 +45,7 @@ alias vapor="vendor/bin/vapor"
 
 # Git
 alias nah="git reset --hard && git clean -df"
+alias undocommit="git reset HEAD~1"
 alias gs="git status"
 alias ga="git add -A"
 alias gc="git commit"
