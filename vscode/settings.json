@@ -1,4 +1,10 @@
 {
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "blade.format.enable": true,
+    "bladeFormatter.format.wrapAttributes": "preserve-aligned",
+    "bladeFormatter.format.wrapLineLength": 9999,
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
     "editor.fontSize": 14,
@@ -63,7 +69,7 @@
     "php-cs-fixer.autoFixByBracket": false,
     "php-cs-fixer.rules": "@PSR2",
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1615313112664,
+    "php-cs-fixer.lastDownload": 1617169303062,
     "tailwindCSS.emmetCompletions": true,
     "tailwindCSS.colorDecorators": "off",
     "workbench.colorTheme": "Community Material Theme",
