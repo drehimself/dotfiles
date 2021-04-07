@@ -40,6 +40,7 @@ alias a="php artisan"
 alias tinker="php artisan tinker"
 alias mfs="php artisan migrate:fresh --seed"
 alias phpunit="vendor/bin/phpunit"
+alias testp="php artisan test --parallel"
 alias pest="vendor/bin/pest"
 alias vapor="vendor/bin/vapor"
 
