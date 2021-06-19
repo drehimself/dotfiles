@@ -13,6 +13,15 @@
 		],
 		"description": "Log output to console"
 	},
+	"Function Definition": {
+		"prefix": "func",
+		"body": [
+			"function ${1:functionName}(${2:param}) {",
+			"  ${3://code}",
+			"}"
+		],
+		"description": "JavaScript function definition"
+	},
 	"HTML Comment": {
 		"prefix": "hco",
 		"body": [
